@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 30px;
+  border-bottom: 1px solid black;
+}
+
+.nav_header img{
+  width: 100px;
+  border-radius: 100%;
+}
+
+.subjects{
+  align-self: flex-end;
+  margin-right: 30px;
+}
+
+.subjects span{
+  margin-left: 15px;
+}
