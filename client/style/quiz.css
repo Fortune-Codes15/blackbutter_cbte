@@ -91,3 +91,7 @@ main{
   background-color: #50A584;
   color: hsl(0, 0%, 95%);
 }
+
+.time{
+  font-size: 1.25rem;
+}
