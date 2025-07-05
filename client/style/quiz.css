@@ -4,10 +4,26 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #f6f6f6;
+}
+
 nav{
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+button{
+  padding: 8px 32px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
 }
 
 .nav_header{
@@ -20,15 +36,58 @@ nav{
 }
 
 .nav_header img{
-  width: 100px;
+  width: 70px;
   border-radius: 100%;
 }
 
 .subjects{
   align-self: flex-end;
   margin-right: 30px;
+  margin-top: 10px;
 }
 
 .subjects span{
   margin-left: 15px;
+}
+
+main{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.quiz_question{
+  margin-bottom: 24px;
+}
+
+.options ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.options ul li{
+  padding: 32px 40px;
+  background-color: hsl(0, 0%, 85%);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.options ul li:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+.button_group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.button_group .prev{
+  background-color: #FFCB00;
+}
+
+.button_group .next{
+  background-color: #50A584;
+  color: hsl(0, 0%, 95%);
 }
