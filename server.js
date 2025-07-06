@@ -13,6 +13,10 @@ app.get('/', function(req, res){
   res.render('home');
 });
 
+app.get('/quiz', function(req, res){
+  res.render('quiz')
+})
+
 app.use(function(req, res){
   res.type('text/plain');
   res.status(404);
